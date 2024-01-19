@@ -1,0 +1,1 @@
+export const homePageUrl = "http://localhost:3000/"

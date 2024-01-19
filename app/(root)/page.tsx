@@ -1,9 +1,14 @@
-import Image from 'next/image'
+"use client";
+
+import { Hero, TestSection, Benefits, BlogSection } from "@/components/index";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     
+    <main className="w-scrren">
+      <Hero />
+      <TestSection />
+      <Benefits />
+      <BlogSection />
     </main>
-  )
+  );
 }
