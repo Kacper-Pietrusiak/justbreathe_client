@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import { useSession } from "@clerk/nextjs";
 import React, { useEffect, useState } from "react";
@@ -42,7 +42,7 @@ const page = () => {
     <div className=" h-screen flex items-center justify-center pt-[80px]">
       <Sidebar />
       <PostTable posts={posts} />
-      {/* <AddForm /> */}
+      <AddForm />
     </div>
   );
 };
